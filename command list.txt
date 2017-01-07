@@ -1,0 +1,21 @@
+
+SOME GENERAL COMMANDS
+
+[look around] //Show discription of the room
+[go||travel||move] && <direction> //move to another area of the map ie. go west
+[exit] //quits the game
+
+COMBAT COMMANDS
+/* when the [attack] command is used, your attacks gain a small attack bonus */
+/* when the [defend] command is used, attack is halved and defense value is doubled */
+/* magic attacks ignores monsters armor, has greater potential for more damage, but results can vary greatly */
+[fight || kill || attack] && <creature> //starts combat with creature.
+[cast] <spell name>  // ie "cast heal"
+
+MISC COMMANDS
+[get||pickup][take] && <item> // gets items from enviroment (you can only carry 5 items)
+[inventory] // show inventory and coin amount
+[drop] <item name>  // removes an item from backpack *warning* dropped items will vanish forever.
+[health] // display current health and magic
+
+/* there will also be special commands depending on the room your are in.  So keep your eyes open for those. */
